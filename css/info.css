@@ -1,0 +1,39 @@
+body   {
+    background-color: #2C0735;
+}
+.larg-card   {
+    min-width: 18rem;
+    max-width: 18rem;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-bottom: 50px;
+}
+.corCard {
+    background-color: #2C0735;
+    color: #97DFFC;
+    border-color: #97DFFC;
+    
+    
+}
+.corBotao  {
+    background-color: #613DC1;
+    color: #97DFFC;
+    
+}
+.imagem-card    {
+    object-fit: cover;
+    height: 300px;
+}
+.row    {
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@media  (max-width: 768px)  {
+.row    {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+}
