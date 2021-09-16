@@ -51,8 +51,8 @@ body{
 
 
 .movieGrid{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 5rem;
@@ -60,12 +60,12 @@ body{
 }
 
 .movieCard{
-  border: 1px solid #97DFFC;
   width: 200px;
 }
 .movieCard img{
   width: 100%;
-  cursor: pointer;  
+  cursor: pointer;
+  border-radius: 15px;
 }
 
 /* MODAL */
