@@ -8,10 +8,42 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" defer></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>  
-
-  <title>Busque seus filmes</title>
+  <script src="../js/busca.js" defer></script>
+  <title>TARANTIFLIX - Busca</title>
+  <link rel="stylesheet" href="../css/busca.css">
 </head>
 <body>
-  
+  <main id="main">
+
+    <header class="header-movies">
+        <div class="navbar">
+            <h1 class="header-movies__title">TARANTIFLIX</h1>
+            <a href="../index.html">VOLTAR</a>
+        </div>
+    </header>
+
+    <section class="movieBox col-12">
+        <div class="container">
+            <div class="movies">
+              <h3>Procure no nosso acervo:</h3>
+              <div class="buscas">
+              <input type="text" id="pesquisa" placeholder="Digite sua busca" name="movie" class="form__input">
+              </div>    
+              <div id="resultado" class="resultado">
+                  <h4 id="titulo"></h4>
+              </div>
+              <div id="resultadosBusca"></div>                
+            </div>          
+        </div>
+    </section>
+
+    <div class="modall">
+      <div class="closeBtn"></div>
+      <p class="tMod">TITULO</p>
+      <div class="imgBoxModal"><img id="imgMod" src="" alt=""></div>
+      <p class="descr">DESCRICAO</p>
+    </div>
+    
+</main>
 </body>
 </html>
