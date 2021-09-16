@@ -1,7 +1,7 @@
 *{margin:0;padding:0;box-sizing: border-box;}
 
 body{
-    background-image: url("#");
+    background-image: url("https://i.pinimg.com/originals/2f/88/a9/2f88a9427474343f7275e3b8f6fcc2e1.jpg");
 }
 
 form{
@@ -18,10 +18,10 @@ form{
 }
 form h3{
     text-align: center;
-    /*color:#5F7C8A */
+    color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 35px;
-    color: white
+    
 
 }
 
