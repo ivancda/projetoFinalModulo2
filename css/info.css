@@ -1,5 +1,6 @@
 body   {
-    background-color: #2C0735;
+    background-color: #141414;
+    color: white;
 }
 .larg-card   {
     min-width: 18rem;
@@ -11,15 +12,16 @@ body   {
     margin-bottom: 50px;
 }
 .corCard {
-    background-color: #2C0735;
-    color: #97DFFC;
-    border-color: #97DFFC;
+    background-color: #141414;
+    color: #ffc300;
+    border-color: #ffc300;
     
     
 }
 .corBotao  {
-    background-color: #613DC1;
-    color: #97DFFC;
+    background-color: #ffc300;
+    color: #141414;
+    border-color: #141414;
     
 }
 .imagem-card    {
@@ -36,4 +38,20 @@ body   {
    margin-left: 10px;
    margin-right: 10px;
 }
+}
+.titulosenha    {
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.DivSenha   {
+    margin: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-style: solid;
+}
+.ContainerSenha {
+    display: flex;
+    flex-direction: column;
 }
