@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 *{
   margin: 0;
@@ -11,35 +13,79 @@ p{
 
 body{
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #2C0735;
+  background-color: #141414;
 }
 
-.hdr{
-  background-color: #4E148C;
-  justify-content: space-around;
-  align-items: center;
-  color: #97DFFC;
+header{
+  background-color: black;
+  color: #ffc300;
+  width: auto;
 }
+
+header .navbar hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+  width: 100%;
+  float: left;
+  background-color: black;
+}
+
+.font {
+  font-family: 'Paytone One', sans-serif;
+}
+
+.link {
+  padding: 10px;
+  margin: 0 0 0 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.link2 {
+  padding: 10px;
+  margin: 0 0 0 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ffc300;
+  border-radius: 5px;
+}
+
+.link:hover {
+  color: #ffc300;
+  transition: 1s;
+}
+
+.link2:hover {
+  color: white;
+  transition: 1s;
+}
+
+.filme {
+  padding: 50px 0 0 95px;
+  color: white;
+  text-decoration:underline;
+  text-decoration-color: #ffc300;
+}
+
+
 .linkBox{
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
 }
 .userBox{
   display: flex;
   align-items: center;
 }
-.userImg{
-  background-image: url('../assets/person-circle.svg');
-  background-size: cover;
-  width: 40px;
-  height: 40px;
-  margin-left: 1rem;
-}
-
 
 .carousel .carousel-item{
-  height: 70vh;
+  height: 90vh;
   z-index: -1;
 }
 .carousel-item img{
@@ -65,7 +111,6 @@ body{
 .movieCard img{
   width: 100%;
   cursor: pointer;
-  border-radius: 15px;
 }
 
 /* MODAL */
@@ -84,7 +129,8 @@ body{
   width: 100%;
 }
 .tMod{
-  font-size: 5rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3rem;
   color: white;
   text-shadow:   
     0 0 42px rgb(225, 225, 225),
@@ -100,8 +146,8 @@ body{
 .closeBtn{
   background-image: url('../assets/icon-x-lg.svg');
   background-size: cover;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   filter: invert(1);
   cursor: pointer;
   position: absolute;
@@ -109,17 +155,12 @@ body{
   top: 5%;
 }
 .imgBoxModal img{
-  border-radius: 30px;
   box-shadow: 0px 0px 30px 10px rgba(255,255,255,0.75);
 }
 
+footer {
+  margin-top: 0px;
+  padding: 25px;
+  font-weight: 100px;
+}
 
-/* 
-CORES: 
- darkest: 
- 2C0735
- 4E148C
- 613DC1
- 858AE3
- 97DFFC
-*/
