@@ -1,23 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 body {
-    background-color: #2C0735;
+    background-image: url("../assets/bg.jpg");
 }
 
 .container {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #613DC1;
+    background-color: rgb(93, 93, 93);
     margin-top: 30px;
     width: 550px;
     border: 1px solid;
-    border-radius: 20px;
+    border-radius: 15px;
 }
+
+header{
+    background-color: black;
+    color: #ffc300;
+    width: auto;
+  }
+  
+  .font {
+    font-family: 'Paytone One', sans-serif;
+    color: #ffc300;
+  }
+
+  .link {
+    padding: 10px;
+    margin: 0 0 0 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ffc300;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  .link:hover {
+      color: black;
+      transition: 2s;
+      text-decoration: none;
+
+  }
 
 .btn {
     display: flex;
     align-items: center;
     color: white;
-    background-color: #4E148C;
+    background-color:#ffc300;
     border: none;
     margin-top: 25px;
 }
@@ -25,24 +57,21 @@ body {
 button {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    background-color: #4E148C; 
+    background-color: #ffc300; 
 }
 
 label {
     color: white;
 }
-
-h1 {
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-}
-
 p {
     color: white;
 }
 
 .btn:hover {
     transition: 2s;
-    background-color: #858AE3;
+    background-color: #eec748;
+}
+
+.form-control {
+    background-color:#dfd6d6;;
 }
