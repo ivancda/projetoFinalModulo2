@@ -1,25 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 *{margin:0;padding:0;box-sizing: border-box;}
 
 body{
+    
+    font-family: 'Josefin Sans', sans-serif;
     background-image: url("https://i.pinimg.com/originals/2f/88/a9/2f88a9427474343f7275e3b8f6fcc2e1.jpg");
 }
 
+header{
+    background-color: black;
+    color: #ffc300;
+    width: auto;
+  }
+  
+  header .navbar hdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 8%;
+    width: 100%;
+    float: left;
+    background-color: black;
+  }
+ 
+  .font {
+    font-family: 'Paytone One', sans-serif;
+  }
+  
+  .link {
+    padding: 10px;
+    margin: 0 0 0 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .link:hover {
+    color: #ffc300;
+    transition: 1s;
+  }
+
+  .caixa{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
 form{
+    
     background-color: rgba(0,0,0,.75);
     border-radius: 20px;
     max-width: 500px;
     width: 70%;
     padding: 20px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-
+    
 }
 form h3{
     text-align: center;
     color:white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     
 
@@ -27,7 +70,7 @@ form h3{
 
 form input[type=email],
 form input[type=password]{
-    background-color: #333;
+    background-color: rgb(221, 221, 221);
     width: 100%;
     height: 45px;
     border: 2px solid grey;
@@ -36,22 +79,23 @@ form input[type=password]{
     
 }
 
-form input[type=button]{
-    font-family: Arial, Helvetica, sans-serif;
+form input[type=submit]{
+    font-family: 'Josefin Sans', sans-serif;;
     font-size: 16px;
     font-weight: 700;
     width: 100%;
     height: 40px;
     cursor: pointer;
-    background: #ffc300;
+    background: #ffc400e7;
     color: white;
     border-style: none;
     border-radius: 4px;
     transition: 1s;
 }
 
-form input[type=button]:hover{
-    background-color:goldenrod
+form input[type=submit]:hover{
+    background-color:goldenrod;
+    color: grey;
 }
 
 .cont{
@@ -83,3 +127,10 @@ p{
     color: #9c9c9c;
     margin-left: 10px;
 }
+
+footer { 
+    margin-top: 25px;
+    padding: 25px;
+    font-weight: 100px;
+    background-color: rgba(0,0,0,.75);
+  }

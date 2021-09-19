@@ -1,6 +1,4 @@
-const email = document.getElementById('txte')
-
-function entrar(){
-    
-   
+function alerta(){
+    alert('Login Efetuado com Sucesso')
 }
+   
