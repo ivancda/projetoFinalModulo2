@@ -1,4 +1,4 @@
-# Projeto Resília Flix
+# <h1>TARANTFLIX</h1>
 
 ## Orientações para os desenvolvedores:
 #
@@ -9,15 +9,32 @@
 #
 #### Fazer antes mesmo de começar a mexer no projeto:
 
-1 - git checkout 'nome da sua branch sem aspas' (entra na branch referente a sua parte no projeto) </br>
-2 - git pull (para atualizar todos os seus arquivos locais com o que já foi feito e uppado para o github)
+1 - git checkout <nome da sua branch> (entra na branch referente a sua parte no projeto) </br>
 #
 #
 #### Fazer depois cada mudança relevante nos arquivos durante o desenvolvimento:
-
 
 1 - git add . (para o git enxergar todas as mudanças feitas nos arquivos) </br>
 2 - git commit - m "escreva aqui a mensagem do commit" (para adicionar comentários do que foi modificado e confirmar as mudanças) </br>
 3 - git push (para deixar a sua branch sempre atualizada no github e facilitar o trabalho em conjunto com o coleguinha.) </br>
 #
-## Seja gentil e sempre pergunte quando tiver dúvidas. No mais um ótimo trabalho para todos!
+#
+#### Fazendo o merge da sua branch para main:
+
+1 - git checkout main (vai para a main branch)</br>
+2 - git pull (pega as alterações prévias para a sua main local)</br>
+3 - git merge <nome da sua branch></br>
+4 - git push (salva as alterações)</br>
+5 - git checkout <nome da sua branch> (volta para sua branch)</br>
+#
+#
+#### Pegando todos os arquivos da main(do github) e salvando em sua branch local(e do github):</br>
+  
+1 - git checkout main (vai para a main branch)</br>
+2 - git pull (pega as alterações prévias para a sua main local)</br>
+3 - git push (salva as alterações)</br>
+4 - git checkout <nome da sua branch> (volta para sua branch)</br>
+5 - git merge main (pega os arquivos de sua main(local) e coloca na sua branch(local)</br>
+6 - git push (salva as alterações)</br>
+#
+#
