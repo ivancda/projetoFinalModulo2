@@ -7,7 +7,7 @@
     <title>Login de acesso</title>
     <link rel="stylesheet" href="../css/login.css">
     <script src="https://kit.fontawesome.com/eca9fba41b.js" crossorigin="anonymous"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/login.js" defer></script>
     
 </head>
 <body>
@@ -16,11 +16,11 @@
 
     </header>
 
-    <form>
+    <form id="formu">
         <h3>Entrar</h3>
         <input type="email" name="email" id="txte" required placeholder="Email">
         <input type="password" name="senha" id="txts" required placeholder="Senha">
-        <input type="button" name="acao" id="txtl" value="Entrar" onclick="entrar()">
+        <input type="submit" name="acao" id="txtl" value="Entrar">
           
         <div>
             <div class="cont">

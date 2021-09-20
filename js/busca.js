@@ -14,12 +14,18 @@ busca.addEventListener('input', ()=>{
     }     
 })
 
-async function pegaFilme (filme){
-    let url = `https://www.omdbapi.com/?s='${filme}'&apikey=875516c3`;
-    await fetch(url).then( resul => resul.json()).then(data =>{
-       if(data.Search != undefined){
-        resultadosBusca.innerHTML = criaFilmes(data.Search);     
-       }
+
+function pegaFilme (filme){
+    $.ajax({
+      url: `https://www.omdbapi.com/?s='${filme}'&apikey=875516c3`,
+      success: function (response) {
+        if(response.Search != undefined){
+          resultadosBusca.innerHTML = criaFilmes(response.Search);     
+         }
+         else{
+          tituloBusca.innerHTML = `Titulo não encontrado`;
+         }
+      }
     })
 }
 

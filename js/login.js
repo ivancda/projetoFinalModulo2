@@ -1,6 +1,9 @@
-const email = document.getElementById('txte')
 
-function entrar(){
-    
-   
-}
+const frm = document.getElementById('formu')
+
+frm.addEventListener('submit', (e) =>{
+  e.preventDefault()
+  location.replace('../index.html')
+
+  
+})

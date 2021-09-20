@@ -33,7 +33,7 @@ img{
 /* MODAL */
 .modall{
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   width: 100vw;
   height: 100vh;
   top: 0;
