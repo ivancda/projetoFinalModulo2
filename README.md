@@ -16,7 +16,7 @@
 
 1 - git add . (para o git enxergar todas as mudanças feitas nos arquivos) </br>
 2 - git commit - m "escreva aqui a mensagem do commit" (para adicionar comentários do que foi modificado e confirmar as mudanças) </br>
-3 - git push (para deixar a sua branch sempre atualizada no github e facilitar o trabalho em conjunto com o coleguinha.) </br>
+3 - git push (para deixar a sua branch sempre atualizada no github) </br>
 #
 #
 #### Fazendo o merge da sua branch(local) para main(local e github):
