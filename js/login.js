@@ -1,6 +1,8 @@
-const email = document.getElementById('txte')
-
-function entrar(){
-    
+function alerta(){
+    alert('Login Efetuado com Sucesso!')
+}
    
+function clicar(){
+    alert('Logando com o Facebook...')
+    alert('Login Efetuado com Sucesso!')
 }

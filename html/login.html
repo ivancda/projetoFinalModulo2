@@ -5,34 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login de acesso</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/login.css">
     <script src="https://kit.fontawesome.com/eca9fba41b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>  
+    
     <script src="../js/login.js"></script>
     
 </head>
 <body>
 
     <header>
+        <div class="navbar hdr">
 
+            <h1 class="font">TARANTflix</h1>
+            <div class="linkBox">
+              <a class="link" href="./info.html">Contato</a>
+              <a class="link" href="./cadastro.html">Cadastro</a>
+              <a class="link" href="./busca.html">Busca</a>
+      
+          </div>
     </header>
+    <div class="caixa">
 
-    <form>
-        <h3>Entrar</h3>
-        <input type="email" name="email" id="txte" required placeholder="Email">
-        <input type="password" name="senha" id="txts" required placeholder="Senha">
-        <input type="button" name="acao" id="txtl" value="Entrar" onclick="entrar()">
-          
-        <div>
-            <div class="cont">
-            <i class="fab fa-facebook-square face_modify"><a href="../index.html" class="ancor"> Conectar com  Facebook</a></i>
-            <a href="senha.html" class="ancor">Esqueceu a senha ?</a>
+        <form action="../index.html" onsubmit="alerta()">
+            <h3>Entrar</h3>
+            <input type="email" name="email"  required placeholder="Email">
+            <input type="password" name="senha" required placeholder="Senha">
+            <input type="submit" name="acao" value="Entrar">
+            
+            <div>
+                <div class="cont">
+                <i class="fab fa-facebook-square face_modify"><a href="../index.html" class="ancor" onclick="clicar()"> Conectar com  Facebook</a></i>
+                <a href="senha.html" class="ancor">Esqueceu a senha ?</a>
+                </div>
             </div>
+                <p>Novo por aqui ? <a href="cadastro.html" class="ancor"><strong>Assine Agora</strong></a></p> 
+            
+        </form>
+
+    </div>
+
+    <footer class="d-flex flex-direction-column align-itens-center justify-content-center">
+        <div class="row">
+          <div class="col-12 my-2">
+            <h6 class='text-center text-white lead onlineFilms'>TARANTflix - catálogo de fimes online</h6>
+          </div>
+          <div class="col-12">
+            <h6 class='text-center text-white lead'><small>© Todos os direitos reservados</small></h6>
+          </div>
         </div>
-            <p>Novo por aqui ? <a href="cadastro.html" class="ancor"><strong>Assine Agora</strong></a></p> 
-        
-    </form>
+      </footer>
 
-    <footer>
+  
 
-    </footer>
+</body>
+</html>
            
