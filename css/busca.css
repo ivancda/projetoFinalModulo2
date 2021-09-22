@@ -9,7 +9,7 @@ body{
 }
 
 header{
-  background-color: black;
+  background-color: rgb(0,0,0,.75);
   color: #ffc300;
   width: auto;
 }
