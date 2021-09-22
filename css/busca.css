@@ -1,25 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 body{
-  background-color: #2C0735;
-  color: #97DFFC;
+  background-color: #141414;
+  color: #ffc300;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+  background-color: black;
+  color: #ffc300;
+  width: auto;
 }
 
 .navbar{
-  background-color: #4E148C;
-  justify-content: space-around;
+  background-color: black;
+  font-family: 'Paytone One', sans-serif;
 }
 
-img{
+header .navbar hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+  width: 100%;
+  float: left;
+  background-color: black;
+}
+
+.link {
+  padding: 10px;
+  margin: 0 0 0 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ffc300;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: black;
+  transition: 2s;
+  text-decoration: none;
+
+}
+
+.img{
   cursor: pointer;
 }
 
-#resultadosBusca{
+.result{
+  padding: 25px;
   display: flex;
   gap: 4rem;
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
+
+.filmesLista:hover img{
+  width: 120%;
+}
+
 .movies{
   display: flex;
   flex-direction: column;
@@ -28,7 +75,6 @@ img{
 .filmesLista{
   max-width: 300px;
 }
-
 
 /* MODAL */
 .modall{
@@ -72,7 +118,6 @@ img{
   top: 5%;
 }
 .imgBoxModal img{
-  border-radius: 30px;
   box-shadow: 0px 0px 30px 10px rgba(255,255,255,0.75);
 }
 
@@ -82,4 +127,11 @@ h4{
 }
 h3{
   margin-top: 3rem;
+  font-size: 50px;
+}
+
+.form__input {
+  padding: 4px 40px;
+  display: flex;
+  align-items: center;
 }
