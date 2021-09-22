@@ -59,11 +59,13 @@ header .navbar hdr {
 .link:hover {
   color: #ffc300;
   transition: 1s;
+  text-decoration: none;
 }
 
 .link2:hover {
   color: white;
   transition: 1s;
+  text-decoration: none;
 }
 
 .filme {
@@ -111,6 +113,11 @@ header .navbar hdr {
 .movieCard img{
   width: 100%;
   cursor: pointer;
+  transition: 100ms;
+}
+
+.movieCard:hover img {
+  width: 120%;
 }
 
 /* MODAL */
