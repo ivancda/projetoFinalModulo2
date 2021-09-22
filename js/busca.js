@@ -14,7 +14,6 @@ busca.addEventListener('input', ()=>{
     }     
 })
 
-
 function pegaFilme (filme){
     $.ajax({
       url: `https://www.omdbapi.com/?s='${filme}'&apikey=875516c3`,

@@ -2,9 +2,7 @@ let requisicao = []
 const filme = ['tt1853728', "tt0361748", "tt0137523", "tt3460252", "tt0110912", "tt0266697", "tt1028528", "tt0119396", "tt0113101", "tt0112740", "tt1077258", "tt0105236", "tt0068646", "tt0993846", "tt1130884"]
 let teste = $('#gridM7')
 
-
 for (let i = 0; i < filme.length; i++) {
-
   $.ajax({
     url: `http://www.omdbapi.com/?i=${filme[i]}&apikey=875516c3`,
     success: function (response) {
@@ -13,9 +11,7 @@ for (let i = 0; i < filme.length; i++) {
       requisicao.push(obj)
     }
   });
-
 }
-
 
 document.addEventListener('click', function(event){
   if(event.target.className=="movie"){
@@ -31,8 +27,3 @@ document.addEventListener('click', function(event){
 document.querySelector('.closeBtn').addEventListener('click', function(){
   document.querySelector('.modall').style.display = "none"
 })
-
-
-
-
-
