@@ -1,6 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+header{
+    background-color: black;
+    color: #ffc300;
+    width: auto;
+  }
+  
+  header .navbar hdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 8%;
+    width: 100%;
+    float: left;
+    background-color: black;
+  }
+
+  .linkBox{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .userBox{
+    display: flex;
+    align-items: center;
+  }
+  .font {
+    font-family: 'Paytone One', sans-serif;
+  }
+  
+
+  .link {
+    padding: 10px;
+    margin: 0 0 0 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .link2 {
+    padding: 10px;
+    margin: 0 0 0 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ffc300;
+    border-radius: 5px;
+  }
+  
+  .link:hover {
+    color: #ffc300;
+    transition: 1s;
+  }
+  
+  .link2:hover {
+    color: white;
+    transition: 1s;
+  }
+  
+
 body   {
     background-color: #141414;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
 }
 .larg-card   {
     min-width: 18rem;
@@ -33,18 +101,49 @@ body   {
     padding-left: 50px;
     padding-right: 50px;
 }
+.bodySenha  {
+    background-image: url(../assets/bgpb.jpg);
+   
+}
+.titulosenha    {
+    padding: 50px;
+    padding-bottom: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: #ffc300;
+}
+.DivSenha   {
+    color: #ffc300;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 20px;
+    max-width: 700px;
+    width: 70%;
+   padding-top: 35px;
+   padding-bottom: 35px;
+   padding-left: 50px;
+   padding-right: 50px;
+    top: 50%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.botaosenha {
+    margin-top: 13px;
+    background: #ffc300;
+    color: black;
+    border-style: none;
+    border-radius: 4px;
+    transition: 1s;
+}
 @media  (max-width: 768px)  {
 .row    {
    margin-left: 10px;
    margin-right: 10px;
 }
 }
-.titulosenha    {
-    padding: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
-}
+
 .DivSenha   {
     margin: 15%;
     padding-left: 10%;
@@ -55,3 +154,4 @@ body   {
     display: flex;
     flex-direction: column;
 }
+
