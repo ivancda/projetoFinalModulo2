@@ -5,7 +5,10 @@
 *{margin:0;padding:0;box-sizing: border-box;}
 
 body{
-    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Josefin Sans', sans-serif;
     background-image: url("https://i.pinimg.com/originals/2f/88/a9/2f88a9427474343f7275e3b8f6fcc2e1.jpg");
 }
